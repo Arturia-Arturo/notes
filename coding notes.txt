@@ -11,6 +11,11 @@ youtube-dl link <------downloads whole video and or playlist
 
 ((song only)) -f "bestaudio[ext=wav]/bestaudio[ext=m4a]/bestaudio[ext=mp3]/bestaudio[ext=aac]/bestaudio" link
 
+((video only)) -f bestvideo, -o "C:\Users\Nick Hartung\(any specific folder path)\%(title)s.%(ext)s" link
+
+
+
+
 
 !!!!!!FOR DOWNLOADING AND CODING MUSIC TO VIDEOS: REFER TO pycodeforbeatvideos.py!!!!!!!!!
 
